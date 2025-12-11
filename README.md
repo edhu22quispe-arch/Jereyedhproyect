@@ -1,2 +1,174 @@
-# Jereyedhproyect
-Trabajo grupal
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención del Ciberbullying</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(0,0,0,0.5);
+            animation: fadeIn 2s ease;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: rgba(0,0,0,0.4);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ffd700;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .tip {
+            background-color: #ff4500;
+            padding: 12px;
+            border-radius: 12px;
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.5);
+            font-size: 0.9em;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #00e676;
+            color: #000;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.3s;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background-color: #76ff03;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚫 ¡Di NO al Ciberbullying! 🚫</h1>
+        <p>Protege tu seguridad y la de tus amigos en línea</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>💡 ¿Qué es el Ciberbullying?</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/565/565491.png" alt="Ciberbullying">
+            <p>Es el acoso, humillación o maltrato que ocurre a través de internet, redes sociales o juegos en línea. Puede afectar tu autoestima y tu salud mental. ¡No lo ignores!</p>
+        </section>
+
+        <section>
+            <h2>⚠️ Señales de alerta</h2>
+            <ul>
+                <li><span class="emoji">📩</span>Recibir mensajes ofensivos o amenazantes.</li>
+                <li><span class="emoji">❌</span>Ser excluido o ignorado en grupos en línea.</li>
+                <li><span class="emoji">📸</span>Publicación de fotos o información privada sin permiso.</li>
+                <li><span class="emoji">😔</span>Cambios repentinos en el estado de ánimo o comportamiento.</li>
+            </ul>
+            <div class="tip">Actúa rápido si notas estas señales, ¡puede hacer la diferencia!</div>
+        </section>
+
+        <section>
+            <h2>🛡️ Recomendaciones para protegerte</h2>
+            <ul>
+                <li><span class="emoji">🔒</span>No compartas información personal en línea.</li>
+                <li><span class="emoji">🚫</span>Bloquea y reporta a quienes te acosen.</li>
+                <li><span class="emoji">🗣️</span>Habla con un adulto de confianza si algo te incomoda.</li>
+                <li><span class="emoji">💾</span>Guarda evidencia de los mensajes ofensivos.</li>
+                <li><span class="emoji">🔑</span>Usa contraseñas seguras y configura la privacidad en redes sociales.</li>
+            </ul>
+            <a href="#" class="btn">Protege tu cuenta ahora</a>
+            <div class="tip">Recuerda: Hablar es tu mejor defensa 💬</div>
+        </section>
+
+        <section>
+            <h2>🤝 Cómo apoyar a otros</h2>
+            <ul>
+                <li><span class="emoji">🚫</span>No difundas contenido ofensivo o rumores.</li>
+                <li><span class="emoji">🛡️</span>Defiende a quienes son acosados en línea.</li>
+                <li><span class="emoji">💌</span>Anima a tus amigos a reportar y bloquear al agresor.</li>
+            </ul>
+            <div class="tip">Tu solidaridad puede cambiar la vida de alguien 🌟</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Información basada en recomendaciones de expertos en ciberseguridad y salud mental.</p>
+        <p>Créditos: Edhu Quispe López Jeremy Misary</p>
+    </footer>
+</body>
+</html>
